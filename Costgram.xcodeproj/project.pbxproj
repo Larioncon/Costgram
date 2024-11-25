@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		1119194F2CE39614003BEB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119194E2CE39614003BEB4F /* AppDelegate.swift */; };
 		111919512CE39614003BEB4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111919502CE39614003BEB4F /* SceneDelegate.swift */; };
-		111919532CE39614003BEB4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111919522CE39614003BEB4F /* ViewController.swift */; };
-		111919562CE39614003BEB4F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 111919552CE39614003BEB4F /* Base */; };
+		111919532CE39614003BEB4F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111919522CE39614003BEB4F /* MenuVC.swift */; };
 		111919592CE39614003BEB4F /* Costgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111919572CE39614003BEB4F /* Costgram.xcdatamodeld */; };
 		1119195B2CE39615003BEB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1119195A2CE39615003BEB4F /* Assets.xcassets */; };
 		1119195E2CE39615003BEB4F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1119195D2CE39615003BEB4F /* Base */; };
+		1130BE5C2CF10A14003BA1B3 /* PartOfNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130BE5B2CF10A14003BA1B3 /* PartOfNumVC.swift */; };
+		1131A75C2CE7EE04006E0640 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131A75B2CE7EE04006E0640 /* MenuButton.swift */; };
+		1131A75E2CE7F6D4006E0640 /* PerGramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */; };
+		1131A7602CE7F6EC006E0640 /* PercentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131A75F2CE7F6EC006E0640 /* PercentVC.swift */; };
+		1163CB4B2CEBCB7D00F2F70B /* CGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */; };
+		119A8D542CE8012400AEE8F7 /* CalcBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A8D532CE8012400AEE8F7 /* CalcBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1119194B2CE39614003BEB4F /* Costgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Costgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1119194E2CE39614003BEB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		111919502CE39614003BEB4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		111919522CE39614003BEB4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		111919552CE39614003BEB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111919522CE39614003BEB4F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		111919582CE39614003BEB4F /* Costgram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Costgram.xcdatamodel; sourceTree = "<group>"; };
 		1119195A2CE39615003BEB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1119195D2CE39615003BEB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1119195F2CE39615003BEB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1130BE5B2CF10A14003BA1B3 /* PartOfNumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOfNumVC.swift; sourceTree = "<group>"; };
+		1131A75B2CE7EE04006E0640 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerGramVC.swift; sourceTree = "<group>"; };
+		1131A75F2CE7F6EC006E0640 /* PercentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentVC.swift; sourceTree = "<group>"; };
+		1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGTextField.swift; sourceTree = "<group>"; };
+		119A8D532CE8012400AEE8F7 /* CalcBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,13 @@
 			children = (
 				1119194E2CE39614003BEB4F /* AppDelegate.swift */,
 				111919502CE39614003BEB4F /* SceneDelegate.swift */,
-				111919522CE39614003BEB4F /* ViewController.swift */,
-				111919542CE39614003BEB4F /* Main.storyboard */,
+				111919522CE39614003BEB4F /* MenuVC.swift */,
+				1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */,
+				1131A75F2CE7F6EC006E0640 /* PercentVC.swift */,
+				1130BE5B2CF10A14003BA1B3 /* PartOfNumVC.swift */,
+				1131A75B2CE7EE04006E0640 /* MenuButton.swift */,
+				119A8D532CE8012400AEE8F7 /* CalcBtn.swift */,
+				1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */,
 				1119195A2CE39615003BEB4F /* Assets.xcassets */,
 				1119195C2CE39615003BEB4F /* LaunchScreen.storyboard */,
 				1119195F2CE39615003BEB4F /* Info.plist */,
@@ -130,7 +145,6 @@
 			files = (
 				1119195B2CE39615003BEB4F /* Assets.xcassets in Resources */,
 				1119195E2CE39615003BEB4F /* Base in Resources */,
-				111919562CE39614003BEB4F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +155,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111919532CE39614003BEB4F /* ViewController.swift in Sources */,
+				111919532CE39614003BEB4F /* MenuVC.swift in Sources */,
+				1131A75E2CE7F6D4006E0640 /* PerGramVC.swift in Sources */,
 				111919592CE39614003BEB4F /* Costgram.xcdatamodeld in Sources */,
+				1131A75C2CE7EE04006E0640 /* MenuButton.swift in Sources */,
 				1119194F2CE39614003BEB4F /* AppDelegate.swift in Sources */,
+				1163CB4B2CEBCB7D00F2F70B /* CGTextField.swift in Sources */,
 				111919512CE39614003BEB4F /* SceneDelegate.swift in Sources */,
+				1131A7602CE7F6EC006E0640 /* PercentVC.swift in Sources */,
+				119A8D542CE8012400AEE8F7 /* CalcBtn.swift in Sources */,
+				1130BE5C2CF10A14003BA1B3 /* PartOfNumVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		111919542CE39614003BEB4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				111919552CE39614003BEB4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1119195C2CE39615003BEB4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,9 +313,9 @@
 				INFOPLIST_FILE = Costgram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +323,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Chmil.Costgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -329,9 +344,9 @@
 				INFOPLIST_FILE = Costgram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Chmil.Costgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
