@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110C61A02D025BAF00744139 /* CalculationResults+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C619E2D025BAF00744139 /* CalculationResults+CoreDataClass.swift */; };
+		110C61A12D025BAF00744139 /* CalculationResults+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C619F2D025BAF00744139 /* CalculationResults+CoreDataProperties.swift */; };
 		1119194F2CE39614003BEB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119194E2CE39614003BEB4F /* AppDelegate.swift */; };
 		111919512CE39614003BEB4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111919502CE39614003BEB4F /* SceneDelegate.swift */; };
 		111919532CE39614003BEB4F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111919522CE39614003BEB4F /* MenuVC.swift */; };
@@ -18,10 +20,13 @@
 		1131A75E2CE7F6D4006E0640 /* PerGramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */; };
 		1131A7602CE7F6EC006E0640 /* PercentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131A75F2CE7F6EC006E0640 /* PercentVC.swift */; };
 		1163CB4B2CEBCB7D00F2F70B /* CGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */; };
+		118A64942D017408002E8ADE /* ResultTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A64932D017408002E8ADE /* ResultTableView.swift */; };
 		119A8D542CE8012400AEE8F7 /* CalcBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A8D532CE8012400AEE8F7 /* CalcBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110C619E2D025BAF00744139 /* CalculationResults+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculationResults+CoreDataClass.swift"; sourceTree = "<group>"; };
+		110C619F2D025BAF00744139 /* CalculationResults+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculationResults+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1119194B2CE39614003BEB4F /* Costgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Costgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1119194E2CE39614003BEB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		111919502CE39614003BEB4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +40,7 @@
 		1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerGramVC.swift; sourceTree = "<group>"; };
 		1131A75F2CE7F6EC006E0640 /* PercentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentVC.swift; sourceTree = "<group>"; };
 		1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGTextField.swift; sourceTree = "<group>"; };
+		118A64932D017408002E8ADE /* ResultTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableView.swift; sourceTree = "<group>"; };
 		119A8D532CE8012400AEE8F7 /* CalcBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110C61A22D0260E200744139 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110C619E2D025BAF00744139 /* CalculationResults+CoreDataClass.swift */,
+				110C619F2D025BAF00744139 /* CalculationResults+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		111919422CE39614003BEB4F = {
 			isa = PBXGroup;
 			children = (
@@ -68,21 +83,47 @@
 		1119194D2CE39614003BEB4F /* Costgram */ = {
 			isa = PBXGroup;
 			children = (
-				1119194E2CE39614003BEB4F /* AppDelegate.swift */,
+				110C61A22D0260E200744139 /* Model */,
+				118C14212D0105AA00BC7551 /* Screens */,
+				118C14202D01054B00BC7551 /* Custom Views */,
+				116D5E772D010242006AED66 /* Support */,
+			);
+			path = Costgram;
+			sourceTree = "<group>";
+		};
+		116D5E772D010242006AED66 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				111919502CE39614003BEB4F /* SceneDelegate.swift */,
+				1119194E2CE39614003BEB4F /* AppDelegate.swift */,
+				1119195A2CE39615003BEB4F /* Assets.xcassets */,
+				1119195F2CE39615003BEB4F /* Info.plist */,
+				111919572CE39614003BEB4F /* Costgram.xcdatamodeld */,
+				1119195C2CE39615003BEB4F /* LaunchScreen.storyboard */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		118C14202D01054B00BC7551 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */,
+				119A8D532CE8012400AEE8F7 /* CalcBtn.swift */,
+				1131A75B2CE7EE04006E0640 /* MenuButton.swift */,
+				118A64932D017408002E8ADE /* ResultTableView.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		118C14212D0105AA00BC7551 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				111919522CE39614003BEB4F /* MenuVC.swift */,
 				1131A75D2CE7F6D4006E0640 /* PerGramVC.swift */,
 				1131A75F2CE7F6EC006E0640 /* PercentVC.swift */,
 				1130BE5B2CF10A14003BA1B3 /* PartOfNumVC.swift */,
-				1131A75B2CE7EE04006E0640 /* MenuButton.swift */,
-				119A8D532CE8012400AEE8F7 /* CalcBtn.swift */,
-				1163CB4A2CEBCB7D00F2F70B /* CGTextField.swift */,
-				1119195A2CE39615003BEB4F /* Assets.xcassets */,
-				1119195C2CE39615003BEB4F /* LaunchScreen.storyboard */,
-				1119195F2CE39615003BEB4F /* Info.plist */,
-				111919572CE39614003BEB4F /* Costgram.xcdatamodeld */,
 			);
-			path = Costgram;
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110C61A02D025BAF00744139 /* CalculationResults+CoreDataClass.swift in Sources */,
+				110C61A12D025BAF00744139 /* CalculationResults+CoreDataProperties.swift in Sources */,
+				118A64942D017408002E8ADE /* ResultTableView.swift in Sources */,
 				111919532CE39614003BEB4F /* MenuVC.swift in Sources */,
 				1131A75E2CE7F6D4006E0640 /* PerGramVC.swift in Sources */,
 				111919592CE39614003BEB4F /* Costgram.xcdatamodeld in Sources */,
